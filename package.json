@@ -1,0 +1,37 @@
+{
+  "name": "decompress-gz",
+  "version": "0.0.1",
+  "description": "decompress gz plugin",
+  "license": "MIT",
+  "repository": "coderty/decompress-gz",
+  "author": {
+    "name": "Carlos Carmona",
+    "email": "carlos@coderty.com",
+    "url": "https://github.com/ccarmona"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "decompress",
+    "decompressplugin",
+    "extract",
+    "gz",
+    "gunzip"
+  ],
+  "dependencies": {
+    "file-type": "^5.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "is-jpg": "^1.0.0",
+    "pify": "^3.0.0",
+    "xo": "^0.18.2"
+  }
+}
